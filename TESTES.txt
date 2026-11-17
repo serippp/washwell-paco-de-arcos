@@ -1,0 +1,38 @@
+RELATÓRIO DE VERIFICAÇÃO — WASH WELL
+Data: 17 de novembro de 2026
+
+33 verificações automatizadas aprovadas, 0 falhadas.
+
+FICHEIROS E CÓDIGO
+- Sintaxe de JavaScript e CSS válida nos parsers usados.
+- Todos os recursos referenciados existem com a capitalização exata.
+- Todas as âncoras internas correspondem a identificadores existentes.
+- Um título principal, idioma pt-PT, imagens com alt e dimensões.
+- Duas secções com vídeos distintos, com playsinline.
+- Contactos coerentes com os materiais fornecidos.
+- Fontes e imagens locais; sem dependências remotas para mostrar o site.
+- Configuração de demonstração sem indexação.
+- Regras CSS para computador, tablet, telemóvel e movimento reduzido.
+
+FUNCIONALIDADES EM DOM EMULADO
+Verificadas com larguras lógicas de 390 e 1440 píxeis:
+- Abrir e fechar o menu.
+- Fechar o menu depois de escolher uma secção.
+- Fechar o menu com Escape e devolver o foco ao botão.
+- Abrir e fechar a ampliação das fotografias.
+Estes testes verificam o comportamento do código; não medem o layout real.
+
+RECURSOS SERVIDOS POR HTTP LOCAL
+- 13 pedidos HEAD aprovados com HTTP 200 e tipos MIME adequados.
+- HTML, CSS, JavaScript, favicon, fontes, fotografias e os dois vídeos presentes.
+- Os dois vídeos responderam a pedidos parciais com HTTP 206 no servidor local.
+- SHA-256 das cópias dos vídeos coincide com o dos originais fornecidos.
+- Estrutura MP4 validada: índice moov antes de mdat em ambos os vídeos.
+
+LIMITES DA VERIFICAÇÃO
+A ferramenta de navegador desta sessão não conseguiu abrir uma sessão
+controlável e terminou a verificação visual. Assim, não foi possível confirmar
+visualmente o layout, a reprodução efetiva dos vídeos e os controlos num
+navegador real. Não foram feitos testes em iPhone ou Android físicos.
+O DOM emulado e a inspeção de código não substituem esses testes.
+Não houve publicação nem teste no Netlify/GitHub.

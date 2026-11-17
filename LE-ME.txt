@@ -1,0 +1,38 @@
+WASH WELL PAÇO DE ARCOS — DEMONSTRAÇÃO DE WEBSITE
+
+Projeto completo em HTML, CSS e JavaScript, sem instalação ou build.
+Os vídeos, fotografias, logótipo, favicon e fontes estão incluídos.
+Não foram criadas chaves de API, serviços pagos ou contas.
+O site não foi publicado no GitHub nem no Netlify.
+
+ABRIR
+Depois de extrair o ZIP, abrir index.html no navegador.
+Para uma pré-visualização igual à de um alojamento, servir esta pasta por HTTP.
+
+PUBLICAR NO NETLIFY
+Extrair primeiro o ZIP. Arrastar a pasta que contém diretamente index.html,
+styles.css, script.js, netlify.toml e assets para a publicação manual.
+Não arrastar uma pasta acima dessa nem apenas o ficheiro index.html.
+Não é necessário executar comandos de build.
+Se for usado um repositório, a pasta de publicação é . (raiz deste projeto).
+
+MATERIAIS
+assets/videos/hero.mp4: Video 111(1).mp4, original integral (48,017 s).
+assets/videos/trabalho.mp4: Video 222(1).mp4, original integral (19,665 s).
+Ambos: H.264, 720 × 1280, com o índice MP4 antes dos dados de vídeo.
+As cópias publicáveis dos vídeos mantêm os bytes dos originais.
+As fotografias de estofos mantêm a montagem de antes/depois fornecida;
+foram removidas apenas a barra superior e a margem inferior do telemóvel.
+O logótipo é o original. O favicon é um recorte do seu símbolo azul.
+As publicações promocionais e grelhas do Instagram não são apresentadas
+como fotografias de trabalhos nem utilizadas como imagens de stock.
+As fontes Barlow Condensed e Manrope têm as respetivas licenças OFL
+incluídas em assets/fonts/.
+
+DEMONSTRAÇÃO
+O site identifica-se como proposta visual não oficial e inclui noindex,
+nofollow e bloqueio de rastreio. Não tem formulário nem marcação automática:
+os botões de contacto abrem o WhatsApp, telefone, Instagram ou Google Maps.
+
+VERIFICAÇÕES
+Consultar TESTES.txt para resultados e limites da validação realizada.
