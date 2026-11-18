@@ -1,7 +1,24 @@
 RELATÓRIO DE VERIFICAÇÃO — WASH WELL
 Data: 17 de novembro de 2026
 
-33 verificações automatizadas aprovadas, 0 falhadas.
+44 verificações automatizadas aprovadas, 0 falhadas:
+33 verificações da versão modular e 11 da versão autónoma corrigida.
+
+DIAGNÓSTICO DO ESTADO ANTERIOR
+Foi consultado por HTTP o alojamento já existente em washwellpaco.netlify.app.
+O HTML e o CSS respondiam com HTTP 200; o logótipo, a fonte de títulos
+e ambos os vídeos respondiam com HTTP 404 nos caminhos esperados.
+A correção integra os recursos no index.html, mantendo em paralelo as pastas.
+
+VERSÃO AUTÓNOMA
+- CSS e JavaScript integrados, sem pedidos a ficheiros de estilos ou scripts.
+- Todas as imagens e o favicon contêm os seus próprios dados.
+- Fontes integradas no CSS.
+- Dados dos dois vídeos integrados com verificação SHA-256 contra os MP4.
+- Fotografias integradas com verificação SHA-256 contra as imagens fornecidas.
+- Arranque do código, geração de URLs de vídeo, menu e ampliação das fotografias
+  aprovados em DOM emulado, sem necessidade de pedidos aos ficheiros assets.
+- O novo index.html foi servido por HTTP local com resposta 200 e 21.406.524 bytes.
 
 FICHEIROS E CÓDIGO
 - Sintaxe de JavaScript e CSS válida nos parsers usados.
@@ -35,4 +52,5 @@ controlável e terminou a verificação visual. Assim, não foi possível confir
 visualmente o layout, a reprodução efetiva dos vídeos e os controlos num
 navegador real. Não foram feitos testes em iPhone ou Android físicos.
 O DOM emulado e a inspeção de código não substituem esses testes.
-Não houve publicação nem teste no Netlify/GitHub.
+Esta nova versão não foi publicada nem testada no Netlify/GitHub.
+O diagnóstico remoto descrito acima foi apenas de leitura do estado anterior.

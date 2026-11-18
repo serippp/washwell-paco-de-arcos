@@ -5,9 +5,21 @@ Os vídeos, fotografias, logótipo, favicon e fontes estão incluídos.
 Não foram criadas chaves de API, serviços pagos ou contas.
 O site não foi publicado no GitHub nem no Netlify.
 
+CORREÇÃO DOS RECURSOS EM FALTA
+O ponto de entrada index.html é agora autónomo: inclui estilos, código,
+fontes, imagens e os dois vídeos originais. Os vídeos são reproduzidos
+a partir de URLs locais Blob gerados pelo próprio navegador.
+Assim, a página não depende do upload das subpastas para apresentar
+os seus recursos. O HTML completo tem cerca de 21,4 MB, porque contém
+os vídeos integrais. Esta opção aumenta o primeiro download em troca
+de independência dos caminhos e subpastas.
+As pastas assets e os ficheiros styles.css e script.js são mantidos.
+index-modular.html conserva a versão que usa esses ficheiros externos.
+O ficheiro inicial que deve ser aberto/publicado é index.html.
+
 ABRIR
 Depois de extrair o ZIP, abrir index.html no navegador.
-Para uma pré-visualização igual à de um alojamento, servir esta pasta por HTTP.
+O index.html também pode ser aberto sozinho; os seus recursos estão integrados.
 
 PUBLICAR NO NETLIFY
 Extrair primeiro o ZIP. Arrastar a pasta que contém diretamente index.html,
